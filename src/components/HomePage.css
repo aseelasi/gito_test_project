@@ -471,7 +471,8 @@ textarea{
 @media screen and (max-width: 600px) {
   .slide-content {
     height: 300px;
-    padding: 20px 10px;
+    padding: 30px 10px;
+    font-size: 13px;
   }
 }
 .profile-pic {
@@ -483,6 +484,13 @@ textarea{
   position: absolute;
   top: 0;
   margin: -50px 0;
+}
+@media screen and (max-width: 600px) {
+  .profile-pic {
+    height: 30px;
+    width: 30px;
+    padding: 20px 10px;
+  }
 }
 .each-slide {
   display: flex;
