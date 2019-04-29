@@ -2,16 +2,16 @@ import React, { Component } from 'react'
 import { FaMapMarkerAlt , FaPhone ,FaFacebookF } from 'react-icons/fa'
 import { IoIosMail , IoLogoTwitter , IoLogoInstagram , IoIosArrowForward} 
   from 'react-icons/io'
-import { Container , Row ,Col} from 'react-bootstrap'
+// import { Container , Row ,Col} from 'react-bootstrap'
 import './Footer.css'
 
 export default class Footer extends Component{
   
   render(){
     return(
-      <Container className="footer">
-        <Row className="footer-container">
-          <Col className="part-1 parts">
+      <div className="footer">
+        <div className="footer-container">
+          <div className="part-1 parts">
             <div className="footer-header"> Whisper</div>
             <div className="description">Far far away, behind the word mountains,far from the countries Vakalia  and Consonantia,there live the blind texts</div>
             <div className="social-icons">
@@ -25,8 +25,8 @@ export default class Footer extends Component{
                 <IoLogoInstagram />
               </div>
             </div>
-          </Col>
-          <Col className="part-2 parts">
+          </div>
+          <div className="part-2 parts">
             <div className="footer-header"> Practice Areas</div>
             <ul>
               <li><span><IoIosArrowForward /></span>Family Law</li>
@@ -38,7 +38,7 @@ export default class Footer extends Component{
               <li><span><IoIosArrowForward /></span>Employment Law</li>
               <li><span><IoIosArrowForward /></span>Property Law</li>
             </ul>
-          </Col>
+          </div>
           <div className="part-3 parts">
             <div className="footer-header"> Business Hours</div>
             {/* <div className=""> */}
@@ -48,7 +48,7 @@ export default class Footer extends Component{
               <div className="hour-description">All sunday Days All Official Holidays</div>
             {/* </div> */}
           </div>
-          <Col className="part-4 parts">
+          <div className="part-4 parts">
             <div className="footer-header"> Have a questions?</div>
             <a href="#"> 
               {/* <div> */}
@@ -64,13 +64,13 @@ export default class Footer extends Component{
               <IoIosMail />
               <div className="contact">info@yourdimain.com</div>
             </a>
-          </Col>
-        </Row>
-        <Row className="copyright">
+          </div>
+        </div>
+        <div className="copyright">
           copyright@2019 All rights reserved | This template is made by Colorlib
-        </Row>
+        </div>
 
-      </Container>
+      </div>
     )
   }
 } 
