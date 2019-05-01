@@ -123,82 +123,81 @@ export default class HomePage extends Component {
           <h3>Practice Areas</h3>
           <h1>Practice Areas</h1>
           <div className="practice-areas">
-            <div></div>
             <div className="practice">
-              <div className="practice-icon">
-                <FaUsers size= "35px"/>
+              <div className="practice-icon-container">
+                <FaUsers size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Family Law
               </div>
             </div> 
             <div className="practice">
-              <div className="practice-icon">
-                <MdGavel size= "35px"/>
+              <div className="practice-icon-container">
+                <MdGavel size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Business Law
               </div>
             </div> 
             <div className="practice">
-              <div className="practice-icon">
-                <FaAward size= "35px"/>
+              <div className="practice-icon-container">
+                <FaAward size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Insurance Law
               </div>
             </div> 
             <div className="practice">
-              <div className="practice-icon">
-                <GiCrimeSceneTape size= "35px"/>
+              <div className="practice-icon-container">
+                <GiCrimeSceneTape size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Criminal Law
               </div>
             </div> 
             <div className="practice">
-              <div className="practice-icon">
-                <FaHome size= "35px"/>
+              <div className="practice-icon-container">
+                <FaHome size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Property Law
               </div>
             </div> 
             <div className="practice">
-              <div className="practice-icon">
-                <FaUserTie size= "35px"/>
+              <div className="practice-icon-container">
+                <FaUserTie size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Employment Law
               </div>
             </div>
             <div className="practice">
-              <div className="practice-icon">
-                <FaFireAlt size= "35px"/>
+              <div className="practice-icon-container">
+                <FaFireAlt size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Fire Accident
               </div>
             </div>
             <div className="practice">
-              <div className="practice-icon">
-                <FaMoneyBillAlt size= "35px"/>
+              <div className="practice-icon-container">
+                <FaMoneyBillAlt size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Financial Law
               </div>
             </div>
             <div className="practice">
-              <div className="practice-icon">
-                <GiMedicines size= "35px"/>
+              <div className="practice-icon-container">
+                <GiMedicines size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Drug Offenses
               </div>
             </div>
             <div className="practice">
-              <div className="practice-icon">
-                <GiCrimeSceneTape size= "35px"/>
+              <div className="practice-icon-container">
+                <GiCrimeSceneTape size= "35px" className="practice-icon"/>
               </div>
               <div className="practice-text">
                 Sexual Offenses
